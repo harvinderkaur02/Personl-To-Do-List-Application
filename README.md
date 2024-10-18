@@ -72,21 +72,21 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
      
    3.  Buttons:
 
-         .   Add Task: Adds the task to the list.
-         .   Mark Completed: Marks the selected task as completed.
-         .   Delete Task: Deletes the selected task.
-         .   Save and Exit: Saves the current tasks and exits the application.
+     .   Add Task: Adds the task to the list.
+     .   Mark Completed: Marks the selected task as completed.
+     .   Delete Task: Deletes the selected task.
+     .   Save and Exit: Saves the current tasks and exits the application.
 
  # Data Persistence :
    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
     loaded from this file so you can continue where you left off.
 
  # Customization : 
-    You can easily modify this application to suit your needs:
+   You can easily modify this application to suit your needs:
 
-    . Categories: Add or remove categories by modifying the category_options list in the code.
+   . Categories: Add or remove categories by modifying the category_options list in the code.
     
-    . Task Display: Change how tasks are represented in the Listbox by modifying the __repr__ method in the Task class.               
+   . Task Display: Change how tasks are represented in the Listbox by modifying the __repr__ method in the Task class.               
 
  # Example Task JSON Structure
  Here is an example of how tasks are stored in tasks.json:
@@ -117,5 +117,4 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
 
 
   # License
-  
     This project is licensed under the MIT License. You are free to use, modify, and distribute it.
