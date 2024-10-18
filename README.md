@@ -60,37 +60,36 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
 
  4.  Saving and Exiting:
 
-    .  Click the "Save and Exit" button to save the current task list and close the application.
+    . Click the "Save and Exit" button to save the current task list and close the application.
     
-    .  The tasks are saved to  (tasks.json).
+    . The tasks are saved to  (tasks.json).
 
  # Interface Overview:
 
-    1.   Task List: Displays tasks along with their categories and completion status.
+   1.   Task List: Displays tasks along with their categories and completion status.
      
-    2.  Input Fields: Allows the user to enter task details (title, description) and choose a category.
+   2.  Input Fields: Allows the user to enter task details (title, description) and choose a category.
      
-    3.  Buttons:
+   3.  Buttons:
 
-                .    Add Task: Adds the task to the list.
-                .    Mark Completed: Marks the selected task as completed.
-                .    Delete Task: Deletes the selected task.
-                .    Save and Exit: Saves the current tasks and exits the application.
+         .   Add Task: Adds the task to the list.
+         .   Mark Completed: Marks the selected task as completed.
+         .   Delete Task: Deletes the selected task.
+         .   Save and Exit: Saves the current tasks and exits the application.
 
  # Data Persistence :
    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
     loaded from this file so you can continue where you left off.
 
  # Customization : 
-        You can easily modify this application to suit your needs:
+    You can easily modify this application to suit your needs:
 
-       . Categories: Add or remove categories by modifying the category_options list in the code.
-       
-       . Task Display: Change how tasks are represented in the Listbox by modifying the __repr__ method in the Task class.               
+    . Categories: Add or remove categories by modifying the category_options list in the code.
+    
+    . Task Display: Change how tasks are represented in the Listbox by modifying the __repr__ method in the Task class.               
 
  # Example Task JSON Structure
- 
-       Here is an example of how tasks are stored in tasks.json:
+ Here is an example of how tasks are stored in tasks.json:
        
 
        [
