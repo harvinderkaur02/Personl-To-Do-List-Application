@@ -41,12 +41,15 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
  1. Adding a Task:
   
     .  Enter the Task Title and Description in the provided text fields.
+    
     .  Select a Category from the dropdown menu (Work, Personal, Urgent, Other).
+    
     .  Click the "Add Task" button to add the task to the list.
 
  3. Marking a Task as Completed:
 
    .  Select a task from the list by clicking on it.
+   
    .  Click the "Mark Completed" button. The task’s status will be updated to ✔️.
 
  3. Deleting a Task:
@@ -56,7 +59,6 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
    .  Click the "Delete Task" button to remove it.
 
  4.  Saving and Exiting:
-
     . Click the "Save and Exit" button to save the current task list and close the application. The tasks are saved to  (tasks.json).
 
  # Interface Overview:
