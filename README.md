@@ -13,10 +13,13 @@ This project is a Personal To-Do List Application built using Python and the Tki
 
  # Project Structure: 
 
-   /todo_app
-   ├── todo.py         # Main application code (GUI + logic)
-   ├── tasks.json      # File to store tasks (created after first run)
-   ├── README.md       # Documentation file
+           /todo_app
+           
+          ├── todo.py         # Main application code (GUI + logic)
+          
+          ├── tasks.json      # File to store tasks (created after first run)
+          
+          ├── README.md       # Documentation file
 
  # Installation :
    Prerequisites
