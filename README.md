@@ -1,7 +1,5 @@
  # Personal To-Do List Application
-
- # overview:
-    This project is a Personal To-Do List Application built using Python and the Tkinter library for the graphical user interface (GUI). It allows users to manage their tasks by adding, viewing, marking as completed, and deleting tasks. The application supports task categorization (e.g., Work, Personal, Urgent) and saves tasks locally in a tasks.json file, enabling persistence between sessions.
+This project is a Personal To-Do List Application built using Python and the Tkinter library for the graphical user interface (GUI). It allows users to manage their tasks by adding, viewing, marking as completed, and deleting tasks. The application supports task categorization (e.g., Work, Personal, Urgent) and saves tasks locally in a tasks.json file, enabling persistence between sessions.
 
  # Features :
 
@@ -21,8 +19,8 @@
  ├── README.md       # Documentation file
 
  # Installation :
-
-    Prerequisites
+   Prerequisites
+    
    .  Python 3.x must be installed on your system. You can download Python from here.
    .  The Tkinter library is part of the Python Standard Library, so no external installations are required for it.
 
@@ -40,7 +38,9 @@
            The  To-Do List GUI will appear, allowing you to manage your tasks.
 
  # Usage
+ 
   Main Features:
+  
  1. Adding a Task:
 
    .  Enter the Task Title and Description in the provided text fields.
@@ -64,7 +64,9 @@
  # Interface Overview:
 
      1.   Task List: Displays tasks along with their categories and completion status.
+     
      2.  Input Fields: Allows the user to enter task details (title, description) and choose a category.
+     
      3.  Buttons:
 
                 .    Add Task: Adds the task to the list.
@@ -73,7 +75,9 @@
                 .    Save and Exit: Saves the current tasks and exits the application.
 
  # Data Persistence :
-    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are loaded from this file so you can continue where you left off.
+ 
+    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
+    loaded from this file so you can continue where you left off.
 
  # Customization : 
         You can easily modify this application to suit your needs:
@@ -108,5 +112,6 @@
    4.  Notification System: Notify the user when a task is due soon or overdue.
 
 
-    # License
+  # License
+  
     This project is licensed under the MIT License. You are free to use, modify, and distribute it.
