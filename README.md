@@ -39,11 +39,10 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
   Main Features:
   
  1. Adding a Task:
-         .  Enter the Task Title and Description in the provided text fields.
-         
-         .  Select a Category from the dropdown menu (Work, Personal, Urgent, Other).
-         
-         .  Click the "Add Task" button to add the task to the list.
+  
+    .  Enter the Task Title and Description in the provided text fields.
+    .  Select a Category from the dropdown menu (Work, Personal, Urgent, Other).
+    .  Click the "Add Task" button to add the task to the list.
 
  3. Marking a Task as Completed:
 
