@@ -1,0 +1,14 @@
+[
+    {
+        "title": "market",
+        "description": "buying grocries",
+        "category": "Other",
+        "completed": false
+    },
+    {
+        "title": " study",
+        "description": " practice dsa",
+        "category": "Work",
+        "completed": false
+    }
+]
