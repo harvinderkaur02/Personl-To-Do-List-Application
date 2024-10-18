@@ -14,6 +14,7 @@ This project is a Personal To-Do List Application built using Python and the Tki
  # Project Structure: 
 
  /todo_app
+ 
  ├── todo.py         # Main application code (GUI + logic)
  ├── tasks.json      # File to store tasks (created after first run)
  ├── README.md       # Documentation file
@@ -22,6 +23,7 @@ This project is a Personal To-Do List Application built using Python and the Tki
    Prerequisites
     
    .  Python 3.x must be installed on your system. You can download Python from here.
+   
    .  The Tkinter library is part of the Python Standard Library, so no external installations are required for it.
 
 
@@ -44,22 +46,26 @@ This project is a Personal To-Do List Application built using Python and the Tki
  1. Adding a Task:
 
    .  Enter the Task Title and Description in the provided text fields.
+   
    .  Select a Category from the dropdown menu (Work, Personal, Urgent, Other).
+   
    .  Click the "Add Task" button to add the task to the list.
 
  2. Marking a Task as Completed:
 
    .  Select a task from the list by clicking on it.
+   
    .  Click the "Mark Completed" button. The task’s status will be updated to ✔️.
 
  3. Deleting a Task:
 
    .  Select a task from the list.
+   
    .  Click the "Delete Task" button to remove it.
 
  4.  Saving and Exiting:
 
-    . Click the "Save and Exit" button to save the current task list and close the application. The tasks are saved to   (tasks.json).
+    . Click the "Save and Exit" button to save the current task list and close the application. The tasks are saved to  (tasks.json).
 
  # Interface Overview:
 
@@ -75,18 +81,20 @@ This project is a Personal To-Do List Application built using Python and the Tki
                 .    Save and Exit: Saves the current tasks and exits the application.
 
  # Data Persistence :
- 
-    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
+   All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
     loaded from this file so you can continue where you left off.
 
  # Customization : 
         You can easily modify this application to suit your needs:
 
        . Categories: Add or remove categories by modifying the category_options list in the code.
+       
        . Task Display: Change how tasks are represented in the Listbox by modifying the __repr__ method in the Task class.               
 
  # Example Task JSON Structure
+ 
        Here is an example of how tasks are stored in tasks.json:
+       
 
        [
     {
