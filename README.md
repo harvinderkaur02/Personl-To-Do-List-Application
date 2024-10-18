@@ -60,9 +60,9 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
 
  4.  Saving and Exiting:
 
-    . Click the "Save and Exit" button to save the current task list and close the application.
+     . Click the "Save and Exit" button to save the current task list and close the application.
     
-    . The tasks are saved to  (tasks.json).
+     . The tasks are saved to  (tasks.json).
 
  # Interface Overview:
 
@@ -72,10 +72,10 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
      
    3.  Buttons:
 
-     .   Add Task: Adds the task to the list.
-     .   Mark Completed: Marks the selected task as completed.
-     .   Delete Task: Deletes the selected task.
-     .   Save and Exit: Saves the current tasks and exits the application.
+     .  Add Task: Adds the task to the list.
+     .  Mark Completed: Marks the selected task as completed.
+     .  Delete Task: Deletes the selected task.
+     .  Save and Exit: Saves the current tasks and exits the application.
 
  # Data Persistence :
    All tasks are stored in a local file called tasks.json. When you add, delete, or mark tasks as completed, this file is updated. The next time you open the application, tasks are 
@@ -117,4 +117,4 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
 
 
   # License
-    This project is licensed under the MIT License. You are free to use, modify, and distribute it.
+   This project is licensed under the MIT License. You are free to use, modify, and distribute it.
