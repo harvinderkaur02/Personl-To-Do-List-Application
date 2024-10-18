@@ -28,7 +28,6 @@ This project is a Personal To-Do List Application built using Python and the Tki
 
 
  # Steps to Install and Run:
-
     1. Clone or Download the repository containing this project.
     2. Open a terminal or command prompt and navigate to the project directory.
     3. Run the application by executing the following command:
