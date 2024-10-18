@@ -48,26 +48,29 @@ The To-Do List GUI will appear, allowing you to manage your tasks.
 
  3. Marking a Task as Completed:
 
-   .  Select a task from the list by clicking on it.
-   
-   .  Click the "Mark Completed" button. The task’s status will be updated to ✔️.
+    .  Select a task from the list by clicking on it.
+    
+    .  Click the "Mark Completed" button. The task’s status will be updated to ✔️.
 
  3. Deleting a Task:
 
-   .  Select a task from the list.
-   
-   .  Click the "Delete Task" button to remove it.
+    .  Select a task from the list.
+    
+    .  Click the "Delete Task" button to remove it.
 
  4.  Saving and Exiting:
-    . Click the "Save and Exit" button to save the current task list and close the application. The tasks are saved to  (tasks.json).
+
+    .  Click the "Save and Exit" button to save the current task list and close the application.
+    
+    .  The tasks are saved to  (tasks.json).
 
  # Interface Overview:
 
-     1.   Task List: Displays tasks along with their categories and completion status.
+    1.   Task List: Displays tasks along with their categories and completion status.
      
-     2.  Input Fields: Allows the user to enter task details (title, description) and choose a category.
+    2.  Input Fields: Allows the user to enter task details (title, description) and choose a category.
      
-     3.  Buttons:
+    3.  Buttons:
 
                 .    Add Task: Adds the task to the list.
                 .    Mark Completed: Marks the selected task as completed.
