@@ -13,11 +13,10 @@ This project is a Personal To-Do List Application built using Python and the Tki
 
  # Project Structure: 
 
- /todo_app
- 
- ├── todo.py         # Main application code (GUI + logic)
- ├── tasks.json      # File to store tasks (created after first run)
- ├── README.md       # Documentation file
+   /todo_app
+   ├── todo.py         # Main application code (GUI + logic)
+   ├── tasks.json      # File to store tasks (created after first run)
+   ├── README.md       # Documentation file
 
  # Installation :
    Prerequisites
@@ -30,14 +29,11 @@ This project is a Personal To-Do List Application built using Python and the Tki
  # Steps to Install and Run:
 
     1. Clone or Download the repository containing this project.
-
     2. Open a terminal or command prompt and navigate to the project directory.
-
     3. Run the application by executing the following command:
 
                                           python todo.py
-
-           The  To-Do List GUI will appear, allowing you to manage your tasks.
+The To-Do List GUI will appear, allowing you to manage your tasks.
 
  # Usage
  
